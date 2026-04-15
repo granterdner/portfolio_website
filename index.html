@@ -5,8 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Grant Erdner | Portfolio</title>
 
+  <meta
+    name="description"
+    content="Portfolio website for Grant Erdner, an interdisciplinary engineering student focused on product design, engineering, and software."
+  />
+
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
 
   <!-- Icons -->
   <link
@@ -22,9 +30,10 @@
   <!-- Navigation -->
   <nav class="navbar">
     <div class="nav-container">
-      <div class="logo">Grant Erdner</div>
+      <a href="#home" class="logo">Grant Erdner</a>
+
       <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
+        <li><a href="#home" class="active">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#resume">Resume</a></li>
@@ -35,10 +44,34 @@
   <!-- Hero -->
   <section id="home" class="hero">
     <div class="hero-content">
-      <img src="profile.jpg" alt="Grant Erdner" class="profile-pic">
-      <h1>Grant Erdner</h1>
-      <p class="tagline">Interdisciplinary Engineer · Product Design · Software</p>
-      <a href="#about" class="btn">Learn More</a>
+      <div class="hero-text">
+        <p class="intro">Hello</p>
+
+        <h1>
+          My Name Is<br />
+          Grant<br />
+          Erdner
+        </h1>
+
+        <p class="tagline">
+          I’m an interdisciplinary engineering student focused on product
+          design, engineering, and software. I enjoy building practical
+          solutions that blend technical thinking with clean design.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-dark">About Me</a>
+          <a href="#skills" class="btn btn-light">View Work</a>
+        </div>
+      </div>
+
+      <div class="profile-wrap">
+        <img
+          src="fullbody blue.png"
+          alt="Portrait of Grant Erdner"
+          class="profile-pic"
+        />
+      </div>
     </div>
   </section>
 
@@ -47,13 +80,15 @@
     <div class="container">
       <h2>About Me</h2>
       <p>
-        I’m an interdisciplinary engineering student at Texas A&M University with experience
-        spanning mechanical design, electronics, and software development. I enjoy taking ideas
-        from concept to prototype and building practical, well-designed solutions.
+        I’m an interdisciplinary engineering student at Texas A&amp;M University
+        with experience spanning mechanical design, electronics, fabrication,
+        and software development.
       </p>
       <p>
-        I’m especially interested in product design, manufacturing, and engineering roles that
-        blend hands-on work with creative problem solving.
+        I enjoy taking ideas from concept to prototype and building solutions
+        that are both practical and well-designed. My interests are centered
+        around product development, engineering design, and technology that
+        creates real value.
       </p>
     </div>
   </section>
@@ -76,22 +111,22 @@
 
         <div class="skill-card">
           <i class="fa-solid fa-industry"></i>
-          <span>Manufacturing & Fabrication</span>
+          <span>Manufacturing &amp; Fabrication</span>
         </div>
 
         <div class="skill-card">
           <i class="fa-solid fa-code"></i>
-          <span>Python & JavaScript</span>
+          <span>Python &amp; JavaScript</span>
         </div>
 
         <div class="skill-card">
           <i class="fa-solid fa-laptop-code"></i>
-          <span>HTML & CSS</span>
+          <span>HTML &amp; CSS</span>
         </div>
 
         <div class="skill-card">
           <i class="fa-solid fa-microchip"></i>
-          <span>Embedded & Electronics</span>
+          <span>Embedded &amp; Electronics</span>
         </div>
       </div>
     </div>
@@ -101,9 +136,14 @@
   <section id="resume" class="section">
     <div class="container">
       <h2>Resume</h2>
-      <p>Download my resume to see my experience, projects, and leadership roles.</p>
-      <a href="Grant_Erdner_Resume.pdf" class="btn" download>
-        <i class="fa-solid fa-download"></i> Download Resume
+      <p>
+        Download my resume to view my engineering experience, technical
+        background, leadership, and project work.
+      </p>
+
+      <a href="Grant_Erdner_Resume.pdf" class="btn btn-dark" download>
+        <i class="fa-solid fa-download"></i>
+        Download Resume
       </a>
     </div>
   </section>
